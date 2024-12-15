@@ -1,7 +1,5 @@
 package Pattern;
 
-import java.util.*;
-
 public class HollowSquare {
   public static void main(String[] args) {
     int n = 4;
