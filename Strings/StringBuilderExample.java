@@ -1,5 +1,7 @@
 package Strings;
 
+//the main difference between strings and string builders are string builders are mutable and strings in java are immutable
+
 public class StringBuilderExample {
   public static void main(String[] args) {
     StringBuilder str = new StringBuilder("Kevin");
@@ -14,6 +16,10 @@ public class StringBuilderExample {
 
     // insert a character
     str.insert(5, 'o');
+    System.out.println(str);
+
+    // delete a character
+    str.delete(5, 6);
     System.out.println(str);
   }
 }
