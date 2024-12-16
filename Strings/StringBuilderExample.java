@@ -11,5 +11,9 @@ public class StringBuilderExample {
     // set char at an index
     str.setCharAt(0, 'P');
     System.out.println(str);
+
+    // insert a character
+    str.insert(5, 'o');
+    System.out.println(str);
   }
 }
