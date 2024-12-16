@@ -16,6 +16,15 @@ public class Concatenation {
     for (int i = 0; i < fullname.length(); i++) {
       System.out.println(fullname.charAt(i));
     }
+    if(firstname.compareTo(lastname) > 0) {
+      System.out.println("Firstname is longer");
+    }
+    else if(firstname.compareTo(lastname) == 0) {
+      System.out.println("Firstname and lastname has equal length");
+    }
+    else{
+      System.out.println("Last name is longer");
+    }
     sc.close();
   }
 }
