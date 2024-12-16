@@ -11,6 +11,7 @@ public class Concatenation {
     String lastname = sc.nextLine();
     String fullname = firstname + " " + lastname;
     System.out.println("Full name is: " + fullname);
+    System.out.println("Length of full name is: " + fullname.length());
     sc.close();
   }
 }
