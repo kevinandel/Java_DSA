@@ -23,7 +23,8 @@ public class StringBuilderExample {
     System.out.println(str);
 
     // append a character
-    str.append(" Pandel"); //thi does not create a new string object as we use string builders here but if we used normal strings then a new string object will be created.
+    str.append(" Pandel"); // thi does not create a new string object as we use string builders here but if
+                           // we used normal strings then a new string object will be created.
     System.out.println(str);
   }
 }
