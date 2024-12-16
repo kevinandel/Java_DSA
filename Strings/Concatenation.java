@@ -14,7 +14,7 @@ public class Concatenation {
     System.out.println("Length of full name is: " + fullname.length());
     System.out.println("Each letters are: ");
     for (int i = 0; i < fullname.length(); i++) {
-      System.out.print(fullname.charAt(i) + " ");
+      System.out.println(fullname.charAt(i));
     }
     sc.close();
   }
